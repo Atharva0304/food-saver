@@ -14,7 +14,7 @@ export default async function handler(req, res) {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: "llama3-8b-8192", // example Groq model
+        model: "llama3-8b-8192", // Example Groq model
         messages: [{ role: "user", content: message }]
       })
     });
